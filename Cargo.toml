@@ -1,0 +1,11 @@
+[package]
+name = "drag_and_drop"
+version = "0.1.0"
+authors = ["Maksim Kabanov <maksim_kabanov@epam.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winit = { version = "0.24.0", default-features = false }
+rodio = { version = "0.13", features = ["mp3"] }
